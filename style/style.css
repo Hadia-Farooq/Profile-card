@@ -1,0 +1,79 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body{
+ 
+  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-image: url(https://img.magnific.com/free-vector/grunge-watercolor-background-using-pastel-colours_1048-6530.jpg?semt=ais_hybrid&w=740&q=80);
+     background-repeat: no-repeat;
+     background-size: cover;
+ 
+}
+
+.card{
+    width: 350px; 
+height: 450px;
+        background-color: white;
+    border-radius: 25px;
+    text-align: center;
+margin-top: 10px;
+    border: 1.5px solid #8a7e7e;
+    padding: 28px;
+  
+   
+}
+.card img{
+    border: 1px solid rgb(139, 58, 58);
+    border-radius:50%;
+    
+
+}
+
+
+.card h2{
+    color: #000;
+}
+
+
+.card h3{
+    margin-top: 10px;
+    font-size: medium;
+    color: rgb(105, 22, 22);
+}
+
+
+.intro{
+    margin-top: 10px;    
+}
+
+ .details {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+   
+}
+.details h3{
+    font-size: 14px; 
+    color: rgb(102, 22, 22);
+}
+
+.details p{
+    color: rgb(0, 0, 0);
+} 
+
+.card button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(126, 47, 47);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+} 
